@@ -1,0 +1,12 @@
+{
+  "name": "jerusalem-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Jerusalem, c. 66 CE: an explorable 3D reconstruction in the browser (Three.js).",
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "test": "node --test test/",
+    "test:deno": "deno test --allow-read test/"
+  }
+}
